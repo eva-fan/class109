@@ -71,7 +71,7 @@ def hello3 (request,username):
 def index(request):
                 now=datetime.now()
                 username="范于庭" 
-                return render(request,"B.html",locals())
+                return render(request,"B.html","B1.html","B2.html","B3.html","B4.html",locals())
 
 def listone(request): 
 	try: 
