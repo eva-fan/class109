@@ -71,7 +71,7 @@ def hello3 (request,username):
 def index(request):
                 now=datetime.now()
                 username="范于庭" 
-                return render(request,"index_form.html",locals())
+                return render(request,"http://120.125.73.101:8787/files/G01/ting/B.html",locals())
 
 def listone(request): 
 	try: 
